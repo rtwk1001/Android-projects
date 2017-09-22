@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d67601"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="70dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:drawableTint="#FF4081"
+                android:singleLine="true"
+                android:hint="Full NAme"
+                android:id="@+id/et3"
+                android:inputType="textEmailAddress"
+                /> <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:drawableTint="#FF4081"
+            android:singleLine="true"
+            android:hint="User id"
+            android:id="@+id/et4"
+            android:inputType="textEmailAddress"
+            /> <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:drawableTint="#FF4081"
+            android:singleLine="true"
+            android:hint="Teacher ID"
+            android:id="@+id/et5"
+            android:inputType="text"
+            />
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:drawableTint="#FF4081"
+                android:singleLine="true"
+                android:hint="Phone number"
+                android:id="@+id/et6"
+                android:inputType="text"
+                />
+
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:singleLine="true"
+
+                android:drawableTint="#FF4081"
+                android:hint="Password"
+                android:inputType="numberPassword"
+                android:id="@+id/et7"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:singleLine="true"
+
+                android:drawableTint="#FF4081"
+                android:hint=" Confirm Password"
+                android:inputType="numberPassword"
+                android:id="@+id/et8"/>
+
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:background="#d67601"
+                android:text="Sign in"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:id="@+id/b6"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/user_profile_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/login_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/user_profile_image_background"
+        android:elevation="4dp"
+        android:src="@drawable/logo" />
+</RelativeLayout>

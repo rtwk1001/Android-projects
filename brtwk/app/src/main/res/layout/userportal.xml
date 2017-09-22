@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F2C076">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:background="#F2C076"
+        android:id="@+id/signin"
+
+        android:layout_alignTop="@+id/signup"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="#F2C076"
+        android:id="@+id/signup"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F2C076"
+        android:text="Hello, user \nTo get better experience of this app \nwith more persionalized Interface\n
+                     please!!"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/signin"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F2C076"
+        android:text="|"
+        android:textSize="40dp"
+        android:layout_alignTop="@+id/signup"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

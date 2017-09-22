@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#aaaaaa"
+>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="PRO-file"
+        android:textSize="70dp"
+        android:fontFamily="sans-serif"
+        android:textColorHighlight="#ccccaa"
+
+
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="329dp"
+        android:text="A portfolio product by rtwk."
+        android:fontFamily="cursive"
+        android:layout_below="@+id/textView1"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
